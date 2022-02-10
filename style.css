@@ -101,7 +101,7 @@ body {
 input {
     margin-top: 5px;
     border: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     width: 100%;
 }
@@ -112,7 +112,9 @@ input:focus {
     box-shadow: rgba(0, 0, 0, 0.377) 2px 2px 5px;
 }
 
-
+input:invalid {
+    border: 1px solid rgb(255, 0, 0);
+}
 
 .form-submit {
     padding: 40px 60px;
