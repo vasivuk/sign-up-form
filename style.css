@@ -1,0 +1,50 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+:root {
+    --background: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+}
+
+.left-section {
+    background: url("/img/leaves.jpg") no-repeat;
+    background-size: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+
+.logo-section {
+    position: relative;
+    top: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 20px;
+    top: 20vh;
+}
+
+.logo-section img {
+    width: 100px;
+}
+
+.left-section h1 {
+    color: white;
+    font-family: 'norse-bold', sans-serif;
+    font-size: 7em;
+}
+
